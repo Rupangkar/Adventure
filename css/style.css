@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    max-width:100% ;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url(../images/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    color:white;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.45);
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.logo{}
+
+.logo h3{
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.logo h3 span{
+    font-weight: 300;
+}
+
+nav{
+     
+}
+
+nav ul{
+    padding: 0;
+    display: flex;
+    
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 0px 0px 25px;
+   
+} 
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+
+}
+/* bnnaer */
+
+.bnnaer{
+    text-align: center;
+    padding: 260px;
+}
+
+.bnnaer h4{
+    font-size: 30px;
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.bnnaer span{
+    background-color: #FB2259;
+    height: 6px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;
+    margin:15px 0 30px 0;
+}
+
+.bnnaer h1{
+    font-size: 80px;
+    font-weight: 500;
+    margin: 20px 0 30px 0;
+}
+
+.bnnaer button{
+    border-radius: 10px;
+    background-color: #FB2259;
+    font-size: 20px;
+    color: white;
+    padding: 15px 25px;
+    border: 2px solid #FB2259;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* event */
+
+.event-top{
+    font-size: 35px;
+    color: #525255;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.event-top h4{}
+
+.event-top span{
+    background-color: #FB2259;
+    height: 5px;
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+    margin-bottom: 30px;
+}
+
+.events{
+    width: 80%;
+    margin: auto;
+}
+
+.event{
+    padding: 20px;
+    text-align: center;
+}
+
+.event img{
+    height: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 10px 10px 3px gray;
+}
+
+.event h4{
+    font-size: 25px;
+    color: #000000a3;
+    margin: 20px 0 0 0;
+}
+
+.event p{
+    color: #5c5c5c;
+}
+
+.event a{
+    
+text-decoration: none;
+    
+color: #fb2259;
+    
+letter-spacing: 2px;
+}
+
+/* mobile device */
+@media only screen and (max-width:600px){
+
+    
+.container{
+    width: 90%;
+}
+.flex{
+    display: block;
+}
+
+.logo h3{
+    font-size: 25px;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+}
+nav ul{
+    padding: 0;
+    flex-wrap: wrap;   
+}
+nav ul li{
+    padding: 0px 10px;  
+}  
+
+/* bnnaer */
+
+.bnnaer{
+    
+    padding: 50px;
+}
+
+.bnnaer h4{
+    font-size: 25px; 
+}
+
+.bnnaer span{
+    width: 100px;
+}
+
+.bnnaer h1{
+    font-size: 30px;
+    margin: 0px 0 35px 0;
+}
+
+.bnnaer button{
+    font-size: 18px;
+    padding: 12px 20px;
+    letter-spacing: 1px;
+}
+
+/* event */
+.event-top h2{
+    font-size: 25px;
+    margin: 30px 0 0 0;
+}
+
+.events{
+    width: 100%;
+}
+
+.event{
+    padding: 20px;
+}
+
+.event img{
+    height: 300px;
+    box-shadow: 7px 7px 3px gray;
+}
+
+.event h4{
+    font-size: 20px;
+}
+
+}
+
+
+
